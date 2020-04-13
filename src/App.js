@@ -12,7 +12,7 @@ class App extends React.Component {
         <div class="background"></div>
         <div className="main">
           <Route path="/" exact component={Home} />
-          <Nav />
+
           <Route path="/projects" render={(props) => <Projects />} />
           <Route path="/about" render={(props) => <About />} />
         </div>
