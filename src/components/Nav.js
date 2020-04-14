@@ -42,6 +42,12 @@ class Nav extends React.Component {
                   About
                 </Link>
               </a>
+              <a
+                class="nav-item nav-link px-md-5 text-white"
+                href="https://github.com/shirsi/"
+              >
+                Github
+              </a>
             </div>
           </div>
         </nav>
