@@ -52,9 +52,36 @@ code {
   place-items: center;
   background-size: cover;
   height: 31.5vh;
+  width: 30vw;
 }
 .project-card {
   /* margin-left: 1em; */
   margin-bottom: 2em;
   margin-top: 1em;
+}
+
+.nav {
+  background-color: rgb(37, 87, 86);
+}
+
+.about {
+  margin-top: 2em;
+  display: grid;
+  place-items: center;
+}
+.about > h1 {
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+
+#skills {
+  margin-bottom: 0.5em;
+  align-items: center;
+}
+
+#e-e {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  align-items: center;
 }

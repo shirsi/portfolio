@@ -9,9 +9,14 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            Safia Hirsi
+        <nav
+          id="nav"
+          class=" bg-info sticky-top navbar navbar-expand-lg  text-white navbar-light "
+        >
+          <a class="navbar-brand">
+            <Link to="/" class=" text-white ">
+              Safia Hirsi
+            </Link>
           </a>
           <button
             class="navbar-toggler"
@@ -26,14 +31,20 @@ class Nav extends React.Component {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">
-                <Link to="/">Home</Link>
+              <a class="nav-item nav-link  px-md-5">
+                <Link to="/" class="text-white">
+                  Home
+                </Link>
               </a>
-              <a class="nav-item nav-link" href="#">
-                <Link to="/projects">Projects</Link>
+              <a class="nav-item nav-link px-md-5">
+                <Link to="/projects" class="text-white">
+                  Projects
+                </Link>
               </a>
-              <a class="nav-item nav-link" href="#">
-                <Link to="/about">About</Link>
+              <a class="nav-item nav-link px-md-5">
+                <Link to="/about" class="text-white">
+                  About
+                </Link>
               </a>
             </div>
           </div>

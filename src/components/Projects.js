@@ -20,7 +20,7 @@ class Project extends React.Component {
           <Container fluid="md">
             <div fluid="md" class="project-card">
               <CardDeck>
-                <Card>
+                <Card style={{ width: "18rem" }}>
                   <Card.Img variant="top" className="fan" src={mb} />
                   <Card.Body>
                     <Card.Title>Moments Beauty</Card.Title>
@@ -38,14 +38,14 @@ class Project extends React.Component {
                   </Card.Footer>
                 </Card>
 
-                <Card>
+                <Card style={{ width: "18rem" }}>
                   <Card.Img variant="top" className="fan" src={travel} />
                   <Card.Body>
                     <Card.Title>Dunya Travel Guide</Card.Title>
                     <Card.Text>
-                      Server-side rendered travel blog website with NodeJS,
-                      ExpressJS, MongoDB and Mongoose backend and bootstrap
-                      styling.{" "}
+                      A full-CRUD server-side rendered web application using
+                      NodeJS, ExpressJS, MongoDB and Mongoose backend and
+                      bootstrap styling.{" "}
                     </Card.Text>
                   </Card.Body>
                   <Card.Footer>
@@ -58,9 +58,10 @@ class Project extends React.Component {
                 </Card>
               </CardDeck>
             </div>
-            <Container fluid="md" class="project-card">
+
+            <div fluid="md" class="project-card">
               <CardDeck>
-                <Card class="project-card">
+                <Card style={{ width: "18rem" }}>
                   <Card.Img variant="top" className="fan" src={butterfly} />
                   <Card.Body>
                     <Card.Title>Butterfly Effect</Card.Title>
@@ -77,13 +78,13 @@ class Project extends React.Component {
                     </Button>
                   </Card.Footer>
                 </Card>
-                <Card class="project-card">
+                <Card style={{ width: "18rem" }}>
                   <Card.Img variant="top" className="fan" src={fan} />
                   <Card.Body>
                     <Card.Title>DC &amp; Mavel Fanpage</Card.Title>
                     <Card.Text>
-                      This card has supporting text below as a natural lead-in
-                      to{" "}
+                      Static web application developed using third-party API and
+                      jquery.{" "}
                     </Card.Text>
                   </Card.Body>
                   <Card.Footer>
@@ -93,7 +94,7 @@ class Project extends React.Component {
                   </Card.Footer>
                 </Card>
               </CardDeck>
-            </Container>
+            </div>
           </Container>
         </Container>
       </div>
