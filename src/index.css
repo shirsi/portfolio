@@ -85,3 +85,18 @@ code {
   margin-top: 1em;
   align-items: center;
 }
+
+.connect {
+  margin-bottom: 2em;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.connect > h5 {
+  margin: 1em;
+}
+body > a {
+  text-decoration: none;
+}

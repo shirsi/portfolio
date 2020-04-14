@@ -1,3 +1,3 @@
 # Portfolio
 
-## Software Development portfolio created with ReactJS
+## Portfolio built using ReactJS and React Bootstrap

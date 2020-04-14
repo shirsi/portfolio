@@ -9,8 +9,6 @@ import Button from "react-bootstrap/Button";
 import CardDeck from "react-bootstrap/CardDeck";
 import Container from "react-bootstrap/Container";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
 class Project extends React.Component {
   render() {
     return (

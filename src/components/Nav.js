@@ -1,9 +1,5 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
-{
-  /* <Link to="/">Home</Link> */
-}
 
 class Nav extends React.Component {
   render() {

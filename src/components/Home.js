@@ -20,8 +20,11 @@ class Home extends React.Component {
             <br></br>
             <h1>-Safia Hirsi</h1>
             <br></br>
-            <Button variant="outline-light" size="lg" block>
-              <Link to="/projects"> Checkout My Work</Link>
+            <Button variant="outline-light" size="lg">
+              <Link to="/projects" class="text-muted">
+                {" "}
+                Checkout My Work
+              </Link>
             </Button>{" "}
           </div>
         </div>
