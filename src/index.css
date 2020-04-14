@@ -53,3 +53,8 @@ code {
   background-size: cover;
   height: 31.5vh;
 }
+.project-card {
+  /* margin-left: 1em; */
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
