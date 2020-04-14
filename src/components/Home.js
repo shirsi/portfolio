@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Home extends React.Component {
   render() {
     return (
-      <Container fluid className="home">
+      <div fluid className="home">
         <div className="brand">
-          <div className="anotherbrand">
+          <Container className="anotherbrand">
             <h1>
               I’m a software engineer that believes in intuitive design and is
               passionate about conquering complex challenges. My analytical and
@@ -26,9 +26,9 @@ class Home extends React.Component {
                 Checkout My Work
               </Link>
             </Button>{" "}
-          </div>
+          </Container>
         </div>
-      </Container>
+      </div>
     );
   }
 }
