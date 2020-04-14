@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Home extends React.Component {
   render() {
     return (
-      <div fluid className="home">
+      <Container fluid className="home">
         <div className="brand">
           <Container className="anotherbrand">
             <h1>
@@ -28,7 +28,7 @@ class Home extends React.Component {
             </Button>{" "}
           </Container>
         </div>
-      </div>
+      </Container>
     );
   }
 }
