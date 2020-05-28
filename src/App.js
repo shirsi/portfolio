@@ -9,7 +9,6 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div class="background"></div>
         <div className="main">
           <Route path="/" exact component={Home} />
 
