@@ -2,7 +2,7 @@ import React from "react";
 import Projects from "./components/Projects.js";
 import About from "./components/About.js";
 import Home from "./components/Home.js";
-import Nav from "./components/Nav.js";
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends React.Component {

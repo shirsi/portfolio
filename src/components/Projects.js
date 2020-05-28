@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav.js";
+import Footer from "./Footer.js";
 import travel from "../travel.png";
 import butterfly from "../butterfly.png";
 import fan from "../fan.png";

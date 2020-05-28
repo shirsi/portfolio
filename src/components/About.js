@@ -22,15 +22,15 @@ class Aboutme extends React.Component {
                   to translate their needs into real world technical solutions.
                   I'm looking for new experiences and would love to connect!
                 </h5>
-                <Button variant="info" size="lg">
-                  <a
-                    class="text-white"
-                    href="https://www.linkedin.com/in/safiahirsi"
-                  >
+                <a
+                  class="text-white"
+                  href="https://www.linkedin.com/in/safiahirsi"
+                >
+                  <Button variant="info" size="lg">
                     {" "}
                     LinkedIn
-                  </a>
-                </Button>{" "}
+                  </Button>{" "}
+                </a>
               </div>
             </Container>
             <Container fluid="sm">
@@ -60,9 +60,11 @@ class Aboutme extends React.Component {
                       {" "}
                       <ListGroup>
                         <ListGroup.Item>React</ListGroup.Item>
+                        <ListGroup.Item>Angular</ListGroup.Item>
                         <ListGroup.Item>jQuery</ListGroup.Item>
                         <ListGroup.Item>AJAX</ListGroup.Item>
-                        <ListGroup.Item>REST API</ListGroup.Item>
+                        <ListGroup.Item>HTML 5 </ListGroup.Item>
+                        <ListGroup.Item>CSS</ListGroup.Item>
                         <ListGroup.Item>Bootstrap</ListGroup.Item>
                       </ListGroup>
                     </Card.Body>
@@ -137,7 +139,7 @@ class Aboutme extends React.Component {
                         Program Remote
                         <br></br>
                         St. Catherine University, St. Paul Bachelor of Arts -
-                        Chemistry/Biochemistry Graduated: Dec 2019
+                        Chemistry/Biochemistry
                       </ListGroup>
                     </Card.Body>
                   </Accordion.Collapse>

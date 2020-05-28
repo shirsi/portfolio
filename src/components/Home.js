@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Home extends React.Component {
   render() {
     return (
-      <Container fluid className="home">
-        <div className="brand">
-          <Container className="anotherbrand">
+      <div className="brand">
+        <Container fluid className="home">
+          <Container fluid className="anotherbrand">
             <h1>
               I’m a software engineer that believes in intuitive design and is
               passionate about conquering complex challenges. My analytical and
@@ -20,15 +20,16 @@ class Home extends React.Component {
             <br></br>
             <h1>-Safia Hirsi</h1>
             <br></br>
-            <Button variant="outline-light" size="lg">
-              <Link to="/projects" class="text-muted">
-                {" "}
+
+            <Link to="/projects" class="text-muted">
+              {" "}
+              <Button variant="outline-light" size="lg">
                 Checkout My Work
-              </Link>
-            </Button>{" "}
+              </Button>{" "}
+            </Link>
           </Container>
-        </div>
-      </Container>
+        </Container>
+      </div>
     );
   }
 }

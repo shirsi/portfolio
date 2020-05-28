@@ -9,11 +9,10 @@ class Nav extends React.Component {
           id="nav"
           class=" bg-info sticky-top navbar navbar-expand-lg  text-white navbar-light "
         >
-          <a class="navbar-brand">
-            <Link to="/" class=" text-white ">
-              Safia Hirsi
-            </Link>
-          </a>
+          <Link class="navbar-brand text-white " to="/">
+            Safia Hirsi
+          </Link>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -27,21 +26,18 @@ class Nav extends React.Component {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link  px-md-5">
-                <Link to="/" class="text-white">
-                  Home
-                </Link>
-              </a>
-              <a class="nav-item nav-link px-md-5">
-                <Link to="/projects" class="text-white">
-                  Projects
-                </Link>
-              </a>
-              <a class="nav-item nav-link px-md-5">
-                <Link to="/about" class="text-white">
-                  About
-                </Link>
-              </a>
+              <Link to="/" class="text-white nav-item nav-link  px-md-5">
+                Home
+              </Link>
+
+              <Link to="/projects" class="text-white nav-item nav-link px-md-5">
+                Projects
+              </Link>
+
+              <Link to="/about" class="text-white nav-item nav-link px-md-5">
+                About
+              </Link>
+
               <a
                 class="nav-item nav-link px-md-5 text-white"
                 href="https://github.com/shirsi/"
